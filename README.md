@@ -1,6 +1,12 @@
 # OSINT-Automate-Python
 Estos son un conjunto de scripts que tienen como objetivo automatizar el monitoreo de telegram combinando el uso de OSINT &amp; Threat intelligence
 
+# Funcionalida de los scrtips
+- script1.py = Este script se encarga de extraer la información de un usuario en telegram de forma automatizada usando @usuario
+- script2.py = Este script se encarga de extraer todos los mensajes de un grupo de telegram y monitorearlo
+- script3.py = Este script es como el "script2.py" pero se integraron expresiones regulares para filtrar contenido y usarlo para un enfoque de Threat intelligence
+- scriptalternativo.py = Este script lo tuve que crear para extraer los links y ids de los grupos a los que pertenecezo para integrarlo con los demás scripts
+
 # Paso 1
 Se tiene que tener principalmente una cuenta de telegram activa y funcionando para poder solicitar una API_ID y HASH_ID.
 
